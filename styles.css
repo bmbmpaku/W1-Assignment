@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    color: #fff;
+    display: flex;
+    width: 100%;
+    padding: 2.5rem 3rem;
+    gap: 3rem;
+    z-index: 1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+body{
+    margin:0;
+    font-family: sans-serif;
+    display:block;
+    color:white
+}
+p {
+color: black;
+text-align: center;
+}
+nav a{
+    text-decoration: none;
+    font-size: .85rem;
+    font-weight: 700;
+    color: white;
+}
+nav{
+    display: flex;
+    gap: 2.3rem;
+    text-transform: uppercase;
+    align-items:center;
+}
+h1, h2 {
+    margin: 0;
+}
+h1{ font-size: 2em;
+    font-weight: bold;
+}
+h2{ font-size: 1.5em;
+    font-weight: bold;
+}
+.feature{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-image{
+    background-image: url(/marieant.jpg);
+}
+.post-abs{
+    position: absolute;
+    bottom: 5rem;
+    left: 5rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: .9rem;
+}
+.post-abs_tagline{    
+    text-transform: uppercase;
+    font-weight: 100;
+    opacity: 1;
+    font-size: 1.2rem;
+    bottom: 10rem;
+    left: 5rem;
+}
+.post-abs_heading{
+    position:absolute;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    bottom: 10rem;
+}
+.post-abs_more{
+    margin-top: 1.2rem;
+    display: inline-block;
+    max-width: 200px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .85rem;
+    letter-spacing: .1rem;
+    opacity: 1;
+    color: #fff;
+    border: 2px solid white;
+    padding: 1rem 2rem;
+    transition: background-color 0.3s, color 0.3s
+}
+.hero-image_sp1{
+    background-image: url(/Deloitte.jpg);
+}
+.hero-image_sp2{
+    background-image: url(/vader.jpg);
+}
+.post-abs_more:hover {
+    background-color: white;
+    color: black;
+}
+footer{
+    display:flex;
+    flex-direction: row;
+    z-index: 1;
+    min-height: 50px;
+    background-color: #fff;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+footer img{
+    display:flex; 
+    max-width: 50px;
+max-height: 50px;
+align-items: center;
+flex-direction: row-reverse;}
+
+.navupbtn img{
+    max-width: 50px;
+    max-height: 50px;
+}
+.navupbtn{
+    position: sticky;
+    right:30px;
+    bottom:20px;
+    flex-flow: row-reverse;
+    align-content: end;
+    z-index: 99;
+    cursor: pointer;
+}
+html{scroll-behavior: smooth;}
