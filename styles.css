@@ -53,7 +53,7 @@ h2{ font-size: 1.5em;
     align-items: center;
 }
 .hero-image{
-    background-image: url(/marieant.jpg);
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F33%2F07%2Fb4%2F3307b4f34b0de1d538a2de5496f974c4.jpg&f=1&nofb=1&ipt=71849dfe1c886eb213f649dacb3b82dfdeeea80b1e9524b5fbb88f25d23a70ce&ipo=images);
 }
 .post-abs{
     position: absolute;
@@ -93,10 +93,10 @@ h2{ font-size: 1.5em;
     transition: background-color 0.3s, color 0.3s
 }
 .hero-image_sp1{
-    background-image: url(/Deloitte.jpg);
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F016%2F962%2F983%2Fnon_2x%2Fwhite-open-space-room-interior-with-columns-free-vector.jpg&f=1&nofb=1&ipt=8f1991547426e0596068d1b70a122578ecf2910636550ff24193fb586c4e2b07&ipo=images);
 }
 .hero-image_sp2{
-    background-image: url(/vader.jpg);
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.biper-studio.com%2Fwp-content%2Fuploads%2F2016%2F02%2Fstar-wars-3.jpg&f=1&nofb=1&ipt=faec4f7e7927b60bcd9a5df0960df283096b2e75adea8f0c680dc5fed1627dc2&ipo=images);
 }
 .post-abs_more:hover {
     background-color: white;
